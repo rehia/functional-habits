@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Functional Habits</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/sky.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background="img/habits.jpeg" data-background-color="white" data-state="align-top">
+				<h2 style="text-align: right; margin-top: 10%; font-size: 2.5em;">Functional</h2>
+			</section>
+			<section data-background="img/craft.jpg" data-state="align-center">
+				<h2>
+					<a href="https://twitter.com/JeromeAvoustin">
+						<strong>@JeromeAvoustin</strong>
+					</a>
+				</h2>
+			</section>
+			<section data-background="img/sunday.png" data-background-size="70%" data-background-color="white"></section>
+			<section data-background="img/haskell.png" data-background-size="50%" data-background-color="white"></section>
+			<section data-background="img/poil.webp"></section>
+			<section data-background="img/sponsors-alpes-craft.png" data-background-color="white" data-background-size="auto 90%"></section>
+			<section data-background="img/push-hard.jpeg"></section>
+			<section data-background="img/libs.png" data-background-color="white" data-background-size="auto 90%"></section>
+			<section data-background="img/languages.png" data-background-color="white" data-background-size="auto 90%"></section>
+			<section data-background="img/break.webp" data-background-color="white" data-background-size="100%"></section>
+			<section data-background="img/mental-model.webp" data-background-color="white" data-background-size="auto 80%"></section>
+			<section data-background="img/maths.webp" data-background-color="white"></section>
+			<section data-background="img/avengers.webp" data-background-color="white"></section>
+			<section data-background="img/abstractions.jpeg" data-background-color="white" data-background-size="auto 100%"></section>
+			<section data-background="img/headland.jpeg" data-background-color="white" data-background-size="auto 100%"></section>
+			<section data-background="img/puzzle.jpeg" data-background-color="white"></section>
+			<section data-background="img/composition.png" data-background-color="white" data-background-size="auto 90%"></section>
+			<section data-background="img/processor.jpeg" data-background-color="white"></section>
+			<section data-background="img/tdd.png"></section> 
+			<section data-transition="slide none">
+				<h1 style="text-align: left;">Test</h1>
+				<h1 style="text-align: left;">Driven</h1>
+				<h1 style="text-align: left;">Development</h1>
+			</section> 
+			<section data-transition="none slide">
+				<h1 style="text-align: left;"><span style="text-decoration:line-through;">Test</span> Type</h1>
+				<h1 style="text-align: left;">Driven</h1>
+				<h1 style="text-align: left;">Development</h1>
+			</section> 
+			<section>
+				<h1>Immutabilité</h1>
+			</section>
+			<section>
+				<blockquote>OO makes code understandable by encapsulating moving parts.
+					<br/>FP makes code understandable by minimizing moving parts</blockquote>
+				<small>Michael Feathers</small>
+			</section>
+			<section data-background="img/benefits.jpeg"></section>
+			<section data-background="img/bug.jpeg"></section>
+			<section data-background="img/zen.webp" data-background-size="100% 100%"></section>
+			<section data-background="img/complexity.jpg"></section>
+			<section>
+				<h2>fonctionnel</h2>
+				<h2>></h2>
+				<h2>objet</h2>
+				<h2>></h2>
+				<h2>procédural</h2>
+			</section>
+			<section>
+				<h2>n-tiers</h2>
+				<h2>></h2>
+				<h2>hexa / clean archi</h2>
+			</section>
+			<section>
+				<h2>TDD</h2>
+				<h2>></h2>
+				<h2>Test after</h2>
+				<h2>></h2>
+				<h2>No Test</h2>
+			</section>
+			<section>
+				<h2>Itératif</h2>
+				<h2>></h2>
+				<h2>Cascade</h2>
+				<h2>></h2>
+				<h2>safe</h2>
+			</section>
+			<section data-background="img/thanks.gif">
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+		Reveal.on('align-top', () => {
+  		Reveal.configure({center: false});
+		});
+		Reveal.on('align-center', () => {
+  		Reveal.configure({center: true});
+		});
+	</script>
+</body>
+
+</html>
